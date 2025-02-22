@@ -1,6 +1,4 @@
 "use client"
-import Image from "next/image";
-import { useState } from 'react';
 import BuildYourDesign from "@/components/BuildYourDesign";
 import BuildForDeveloper from "@/components/BuildForDeveloper";
 
