@@ -1,10 +1,15 @@
 // components/Layout.js
+import { ReactNode } from 'react'; // Import ReactNode
 import Image from 'next/image';
 import Link from 'next/link';
 import logo from '../public/logo.svg'; // Assuming the SVG logo is in the public directory
 import Footer from './Footer';
 
-const Layout = ({ children }) => {
+interface LayoutProps {
+  children: ReactNode; // Specify the type for children as ReactNode
+}
+
+const Layout = ({ children }: LayoutProps ) => {
   return (
     <div className="min-h-screen bg-black text-white">
       <nav className="w-full py-6 px-8 flex items-center justify-between fixed top-0 left-0 z-10 backdrop-blur-sm bg-black/30">
