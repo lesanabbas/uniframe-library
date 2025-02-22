@@ -8,9 +8,9 @@ const BuildForDeveloper = () => {
         {/* Main Heading */}
         <h1 className="text-5xl font-extrabold leading-tight tracking-wide sm:text-6xl mb-6">
           Built for{' '}
-          <span className="text-teal-500">developers</span>
+          <span className="text-[#CB6D51]">developers</span>
           <br />
-          <span className="text-teal-500">By developers</span>
+          <span className="text-[#CB6D51]">By developers</span>
         </h1>
         
         {/* Subheading */}

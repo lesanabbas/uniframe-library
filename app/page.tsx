@@ -17,7 +17,7 @@ export default function Home() {
         </p>
         <a
           href="#"
-          className="mt-6 inline-block px-8 py-4 bg-teal-500 text-white text-lg font-semibold rounded-lg hover:bg-teal-400 transition duration-300"
+          className="mt-6 inline-block px-8 py-4 bg-[#CB6D51] text-white text-lg font-semibold rounded-lg hover:text-black transition duration-300"
         >
           Start Building
         </a>

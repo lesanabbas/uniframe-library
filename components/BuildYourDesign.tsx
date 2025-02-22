@@ -4,7 +4,7 @@ const BuildYourDesign = () => {
     const [activeTab, setActiveTab] = useState('tokens');
 
     return (
-        <div className="min-h-screen bg-black text-white flex flex-row mt-5">
+        <div className="min-h-screen bg-black text-white flex flex-col md:flex-row mt-5">
             {/* Main Content Section */}
             <div className="text-center lg:text-left lg:w-1/2 lg:ml-16 mt-32">
                 <h1 className="text-5xl font-extrabold leading-tight tracking-wide sm:text-6xl mb-6">
@@ -20,8 +20,8 @@ const BuildYourDesign = () => {
                 <div className="flex justify-center space-x-8">
                     <button
                         className={`text-xl font-medium py-2 px-4 rounded-lg ${activeTab === 'tokens'
-                                ? 'bg-teal-500 text-white border-2 border-teal-500'
-                                : 'text-gray-400 hover:text-teal-500'
+                                ? 'bg-[#CB6D51] text-white border-2 border-[#CB6D51]'
+                                : 'text-gray-400 hover:text-[#CB6D51]'
                             }`}
                         onClick={() => setActiveTab('tokens')}
                     >
@@ -29,8 +29,8 @@ const BuildYourDesign = () => {
                     </button>
                     <button
                         className={`text-xl font-medium py-2 px-4 rounded-lg ${activeTab === 'typography'
-                                ? 'bg-teal-500 text-white border-2 border-teal-500'
-                                : 'text-gray-400 hover:text-teal-500'
+                                ? 'bg-[#CB6D51] text-white border-2 border-[#CB6D51]'
+                                : 'text-gray-400 hover:text-[#CB6D51]'
                             }`}
                         onClick={() => setActiveTab('typography')}
                     >
@@ -38,8 +38,8 @@ const BuildYourDesign = () => {
                     </button>
                     <button
                         className={`text-xl font-medium py-2 px-4 rounded-lg ${activeTab === 'recipes'
-                                ? 'bg-teal-500 text-white border-2 border-teal-500'
-                                : 'text-gray-400 hover:text-teal-500'
+                                ? 'bg-[#CB6D51] text-white border-2 border-[#CB6D51]'
+                                : 'text-gray-400 hover:text-[#CB6D51]'
                             }`}
                         onClick={() => setActiveTab('recipes')}
                     >

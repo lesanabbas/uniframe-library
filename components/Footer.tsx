@@ -23,10 +23,10 @@ const Footer = () => {
             <div className="space-y-2">
               <h3 className="font-semibold">Documentation</h3>
               <ul className="space-y-1">
-                <li><a href="#" className="text-sm text-gray-400 hover:text-teal-500">Components</a></li>
-                <li><a href="#" className="text-sm text-gray-400 hover:text-teal-500">Theming</a></li>
-                <li><a href="#" className="text-sm text-gray-400 hover:text-teal-500">Styling</a></li>
-                <li><a href="#" className="text-sm text-gray-400 hover:text-teal-500">Get Started</a></li>
+                <li><a href="#" className="text-sm text-gray-400 hover:text-[#CB6D51]">Components</a></li>
+                <li><a href="#" className="text-sm text-gray-400 hover:text-[#CB6D51]">Theming</a></li>
+                <li><a href="#" className="text-sm text-gray-400 hover:text-[#CB6D51]">Styling</a></li>
+                <li><a href="#" className="text-sm text-gray-400 hover:text-[#CB6D51]">Get Started</a></li>
               </ul>
             </div>
 
@@ -34,10 +34,10 @@ const Footer = () => {
             <div className="space-y-2">
               <h3 className="font-semibold">Projects</h3>
               <ul className="space-y-1">
-                <li><a href="#" className="text-sm text-gray-400 hover:text-teal-500">Chakra UI Pro</a></li>
-                <li><a href="#" className="text-sm text-gray-400 hover:text-teal-500">FigPilot</a></li>
-                <li><a href="#" className="text-sm text-gray-400 hover:text-teal-500">Zag.js</a></li>
-                <li><a href="#" className="text-sm text-gray-400 hover:text-teal-500">Ark UI</a></li>
+                <li><a href="#" className="text-sm text-gray-400 hover:text-[#CB6D51]">Chakra UI Pro</a></li>
+                <li><a href="#" className="text-sm text-gray-400 hover:text-[#CB6D51]">FigPilot</a></li>
+                <li><a href="#" className="text-sm text-gray-400 hover:text-[#CB6D51]">Zag.js</a></li>
+                <li><a href="#" className="text-sm text-gray-400 hover:text-[#CB6D51]">Ark UI</a></li>
               </ul>
             </div>
           </div>
@@ -46,10 +46,10 @@ const Footer = () => {
           <div className="space-y-2">
             <h3 className="font-semibold">Community</h3>
             <ul className="space-y-1">
-              <li><a href="#" className="text-sm text-gray-400 hover:text-teal-500">Team</a></li>
-              <li><a href="#" className="text-sm text-gray-400 hover:text-teal-500">Discord</a></li>
-              <li><a href="#" className="text-sm text-gray-400 hover:text-teal-500">Twitter</a></li>
-              <li><a href="#" className="text-sm text-gray-400 hover:text-teal-500">GitHub</a></li>
+              <li><a href="#" className="text-sm text-gray-400 hover:text-[#CB6D51]">Team</a></li>
+              <li><a href="#" className="text-sm text-gray-400 hover:text-[#CB6D51]">Discord</a></li>
+              <li><a href="#" className="text-sm text-gray-400 hover:text-[#CB6D51]">Twitter</a></li>
+              <li><a href="#" className="text-sm text-gray-400 hover:text-[#CB6D51]">GitHub</a></li>
             </ul>
           </div>
         </div>
